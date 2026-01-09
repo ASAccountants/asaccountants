@@ -176,28 +176,28 @@ body::before {
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    rgba(11, 46, 60, 0.7),
-    rgba(11, 46, 60, 0.7)
+    rgba(11, 46, 60, 0.45),
+    rgba(11, 46, 60, 0.45)
   );
 }
 
+
 .hero-overlay {
-  position: relative;
-  text-align: center;
-  color: white;
-  max-width: 800px;
-  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  border-radius: 8px;
+  padding: 35px 40px;
 }
 
 .hero-overlay h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
   margin-bottom: 12px;
-  font-weight: 600;
 }
 
 .hero-overlay p {
-  font-size: 1.2rem;
-  margin: 8px 0;
+  font-size: 1.25rem;
 }
 
 .hero-contact {
