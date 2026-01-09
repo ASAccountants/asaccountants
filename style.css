@@ -1,10 +1,10 @@
 /* ---------- GLOBAL ---------- */
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
   margin: 0;
   background-color: #ffffff;
   color: #2b2b2b;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 
 /* ---------- HEADER ---------- */
 header {
-  background-color: #007c8a; /* Peacock blue */
+  background-color: #005f6a; /* Peacock blue */
   padding: 20px 40px;
   display: flex;
   align-items: center;
@@ -28,43 +28,48 @@ header {
 
 nav a {
   color: #ffffff;
-  margin-left: 20px;
-  font-weight: 600;
+  margin-left: 24px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  opacity: 0.85;
 }
 
 /* ---------- HERO ---------- */
 .hero {
   background: linear-gradient(
-    rgba(0, 124, 138, 0.85),
-    rgba(0, 124, 138, 0.85)
+    135deg,
+    #005f6a,
+    #0b2e3c
   );
   color: white;
-  padding: 80px 20px;
+  padding: 90px 20px;
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 2.4rem;
-  margin-bottom: 10px;
+  font-size: 2.6rem;
+  margin-bottom: 12px;
+  font-weight: 600;
 }
 
 .hero p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  opacity: 0.95;
 }
 
 /* ---------- SECTIONS ---------- */
 section {
-  max-width: 1000px;
-  margin: 60px auto;
-  padding: 0 20px;
+  max-width: 1050px;
+  margin: 70px auto;
+  padding: 0 24px;
 }
 
 h1, h2, h3 {
-  color: #007c8a;
+  color: #005f6a;
+  font-weight: 600;
 }
 
 h2::after {
@@ -72,8 +77,8 @@ h2::after {
   display: block;
   width: 60px;
   height: 3px;
-  background-color: #c9a24d; /* Gold accent */
-  margin-top: 10px;
+  background-color: #c8a24a; /* Gold accent */
+  margin-top: 12px;
 }
 
 /* ---------- LISTS ---------- */
@@ -83,8 +88,8 @@ ul {
 }
 
 ul li {
-  padding-left: 25px;
-  margin-bottom: 10px;
+  padding-left: 28px;
+  margin-bottom: 12px;
   position: relative;
 }
 
@@ -92,31 +97,32 @@ ul li::before {
   content: "✓";
   position: absolute;
   left: 0;
-  color: #c9a24d;
+  color: #c8a24a;
   font-weight: bold;
 }
 
 /* ---------- SERVICES ---------- */
 .services h3 {
-  margin-top: 30px;
+  margin-top: 36px;
 }
 
 /* ---------- CONTACT ---------- */
 .contact-box {
-  background-color: #f4fafa;
-  border-left: 5px solid #007c8a;
-  padding: 25px;
-  margin-top: 30px;
+  background-color: #f6f9fa;
+  border-left: 5px solid #005f6a;
+  padding: 30px;
+  margin-top: 35px;
 }
 
 /* ---------- FOOTER ---------- */
 footer {
-  background-color: #003f4f;
+  background-color: #0b2e3c;
   color: white;
   text-align: center;
-  padding: 20px;
-  margin-top: 60px;
+  padding: 22px;
+  margin-top: 70px;
   font-size: 0.9rem;
+  letter-spacing: 0.3px;
 }
 
 /* ---------- RESPONSIVE ---------- */
@@ -127,15 +133,18 @@ footer {
   }
 
   nav {
-    margin-top: 15px;
+    margin-top: 18px;
   }
 
   nav a {
-    margin: 0 10px;
+    margin: 0 12px;
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
+  }
+}
+
   }
 }
 
