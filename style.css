@@ -161,7 +161,7 @@ body::before {
 }
 /* ---------- HERO IMAGE ---------- */
 .hero-image {
-  background-image: url("team.jpg");
+  background-image: url("team.png");
   background-size: cover;
   background-position: center;
   height: 75vh;
