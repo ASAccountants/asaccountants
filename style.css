@@ -159,3 +159,49 @@ body::before {
   pointer-events: none;
   z-index: -1;
 }
+/* ---------- HERO IMAGE ---------- */
+.hero-image {
+  background-image: url("team.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(11, 46, 60, 0.7),
+    rgba(11, 46, 60, 0.7)
+  );
+}
+
+.hero-overlay {
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+.hero-contact {
+  margin-top: 20px;
+  font-size: 1rem;
+  opacity: 0.95;
+}
