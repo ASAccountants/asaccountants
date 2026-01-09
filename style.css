@@ -15,7 +15,7 @@ a {
 /* ---------- HEADER ---------- */
 header {
   background-color: #005f6a; /* Peacock blue */
-  padding: 20px 40px;
+  padding: 25px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,6 +25,12 @@ header {
 .logo {
   max-height: 95px;
   width: auto;
+}
+
+.logo {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 8px 14px;
+  border-radius: 6px;
 }
 
 nav a {
