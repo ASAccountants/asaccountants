@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AS Accountants | Reliable Accounting Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="logo.jpg" alt="AS Accountants Logo" class="logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Reliable Accounting & Tax Services</h1>
+  <p>For individuals and small businesses</p>
+  <p>
+    📧 vgroupacc@gmail.com<br>
+    📞 063 841 1085
+  </p>
+</section>
+
+<section>
+  <h2>Why Choose AS Accountants</h2>
+  <ul>
+    <li>Accurate & ethical accounting</li>
+    <li>Personalised client service</li>
+    <li>Professional and reliable support</li>
+    <li>Remote services available</li>
+  </ul>
+</section>
+
+<footer>
+  © AS Accountants | vgroupacc@gmail.com | 063 841 1085
+</footer>
+
+</body>
+</html>
