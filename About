@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | AS Accountants</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="logo.jpg" alt="AS Accountants Logo" class="logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section>
+  <h1>About AS Accountants</h1>
+  <p>
+    AS Accountants provides accurate, ethical, and dependable accounting
+    services to individuals and small businesses.
+  </p>
+
+  <h2>Adriana Swanepoel</h2>
+  <p><strong>Founder | AS Accountants</strong></p>
+
+  <p>
+    Adriana offers professional, detail-oriented accounting services with
+    a strong focus on compliance, accuracy, and client support.
+  </p>
+</section>
+
+<footer>
+  © AS Accountants
+</footer>
+
+</body>
+</html>
